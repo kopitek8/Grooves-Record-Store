@@ -1,0 +1,68 @@
+/* Specifying CSS rules for all the web page */
+
+
+body {
+	font-family: "Kavivanar", cursive;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: "Kavivanar";
+	src: url("../Font/kavivanar.ttf") format("truetype");
+}
+
+UL {
+	list-style-type: none;
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+			
+LI {
+	float: left;
+	font-size: 1.2em;
+	width: 20%;
+}
+
+LI A {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+    transition: .3s background-color;
+}
+
+UL A:HOVER {
+	background-color: #7d7d7d;
+	color: white;
+}
+			
+UL A:ACTIVE {
+	background-color: #8f8e91;
+}
+			
+
+HEADER {
+	background-color: #132226; 
+	background-image: url("../Images/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	text-align: center;
+}
+			
+#foot {
+	text-align: center; 
+	width: 100%; 
+	background-color: #DCD9C6;
+	color: black;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	clear: right;
+}
+
+

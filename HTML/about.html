@@ -1,0 +1,96 @@
+<!-- Defining HTML5 -->
+<!DOCTYPE HTML>
+<HTML>
+	<HEAD>
+		<!-- Meta tag is used to provide additional information about the web page -->
+		<META CHARSET="UTF-8">
+		<META NAME="keywords" CONTENT="Webpage, Web, HTML, HTML5, CSS, STYLE, META">
+		<META NAME="description" CONTENT="About Grooves Record Store">
+		<META NAME="author" CONTENT="Keyur Khadka">
+		<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+		<META NAME="last modified" CONTENT="May 4th 2017">
+		
+		<!-- The content inside the TITLE tag will be displayed as tab name -->
+		<TITLE> About Us </TITLE>
+		
+		<!-- Importing external CSS to design the web page -->
+		<LINK REL="stylesheet" TYPE="text/css" HREF="../CSS/layout.css">
+		
+		<!-- Adding internal CSS for the web page -->
+		<STYLE>
+			#about {
+				background-color: #bdacff;
+				background-image: url("../Images/about.jpg");
+				width: 100%;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center center;
+				color: white;
+			}
+			
+			.musicbody {
+				margin-left: 25%;
+				margin-right: 25%;
+				margin-top: 60px;
+			}
+			
+			.music {
+				text-align: justify;
+				line-height: 30px;
+				word-spacing: 2px;
+				font-size: 20px;
+			}
+			
+			.groove {
+				margin-top: 5px;
+				text-align: center; 
+				letter-spacing: 2px; 
+				word-spacing: 3px;
+			}
+			
+			#location {
+				width: 670px;
+				text-align: center;
+			}
+		</STYLE>
+	</HEAD>
+	<BODY>
+		<!-- Adding a header to the web page. Navigation bar and store logo is here -->
+		<HEADER>
+			<A HREF = "home.html"> <IMG SRC="../Images/grooves.png" ALT="Logo of the record store" WIDTH="300px" ALIGN="center" STYLE = "margin: 10px 0px 10px 0px;"> </A>
+			<NAV>
+				<UL>
+					<LI><A HREF="home.html"> Home </A></LI>
+					<LI><A HREF="records.html"> Records </A></LI>
+					<LI><A HREF="upcoming.html"> Upcoming Records </A></LI>
+					<LI><A HREF="about.html"> About Us </A></LI>
+					<LI><A HREF="feedback.html"> Feedback & Suggestion </A></LI>
+				</UL>
+			</NAV>
+		</HEADER>
+		
+		<!-- Adding DIV to add all the codes for the body inside the div in one block -->
+		<DIV ID = "about">
+		
+			<!-- Using H1 to give a heading 'About Grooves Record Store' and P to add paragraphs inside the web page -->
+			<H1 CLASS = "groove"> About Grooves Record Store </H1>
+				<DIV CLASS = "musicbody">
+					<P CLASS = "music"> Music, as we know it, is no more. No one makes music any more like <STRONG> Led Zeppelin, The Beatles, Pink Floyd, Elton John, Bob Dylan, ZZ Top, Queen </STRONG> and many more used to. Their music & lyrics had a deep meaning which could take you to a different world. Their music could touch your soul. Music back then used to connect everyone. Now with artists like <STRONG> One Direction, Justin Bieber, 5 Seconds Of Summer </STRONG> etc. it’s all about who becomes the best, who becomes more popular, who has more fans and what not. Most people don’t even understand their music but still cheer them to show off or whatever. Sad but true. </P>
+					<P STYLE="text-align: center; font-weight: bold; word-spacing: 2px; letter-spacing: 1.5px; font-size: 25px;"> Well hang on, that's where we come in! </P>
+					<P CLASS = "music"> Grooves Record Store is a classic record store located in Huyton, Liverpool. The store first started as a small record store in Kirkby in late 2015. Now after almost over a year, this store is one of the biggest and the best store in town. The name ‘Grooves Record Store’ is an inspiration from a television series ‘That ‘70s Show’. We sell all kinds of classic rock, rock and blues records. We sell records in vinyl and CDs. We don’t sell music of this generation because let’s face it, todays music is not worth calling music. </P>
+					<P CLASS = "music"> Grooves Record Store has a great hang out spot for those looking to hang out listening to music of back then, jamming room and many records for our customers to buy, take home and enjoy. Music enthusiasts, with actual taste of music, come here to hang out with friends or colleagues, buy & sell records and jam with their mates. People can enjoy the great ambience of the store and have wonderful conversation about music. We at Grooves Record Store want to bring the good-old days back. No, we can’t make music but we can sell them. We try to bring people together again by selling actual music. </P>
+					<P CLASS = "music"> So if you’re a music enthusiast who thinks music of todays generation isn’t worth calling music, Grooves Record Store if the right place for you. We have a plethora of records waiting for you to enjoy. Come visit us and get nostalgic remembering the good-old days. <BR><BR><IMG ID="location" SRC="..\Images\address.png" ALT="Address Of The Store"> </P>
+				</DIV>
+		</DIV>
+		
+		<!-- Adding a footer to the web page -->
+		<FOOTER>
+			<P ID = "foot"> 18th York Road, Huyton <BR>
+				Liverpool, England, UK <BR>
+				509-188-1892 <BR> <BR>
+				Copyright © Grooves Record Store 2017 <BR> 
+				All Rights Reserved
+			</P>
+		</FOOTER>
+	</BODY>
+</HTML>
